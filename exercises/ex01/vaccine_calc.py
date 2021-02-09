@@ -23,11 +23,11 @@ administered_doses = int(input("doses administered: "))
 doses_per_day = int(input("doses per day: "))
 target_percent = int(input("target percent vaccinated: "))
 
-doses_left = round(pop*target_percent/100*2 - administered_doses)
-number_of_days = round(doses_left/doses_per_day)
+doses_left = round(pop * target_percent / 100 * 2 - administered_doses)
+number_of_days = round(doses_left / doses_per_day)
 days_till_target_percent: timedelta = timedelta(number_of_days)
-from datetime import datetime, timedelta
 today: datetime = datetime.today()
 future: datetime = today + days_till_target_percent
 
-print("We will reach " + str(target_percent) + "% vaccination in " + str(number_of_days) + " days, which falls on " + str(future.strftime("%B %d, %Y")) + ".")
+print("We will reach " + str(target_percent) + "% vaccination in " 
+      + str(number_of_days) + " days, which falls on " + str(future.strftime("%B %d, %Y")) + ".")

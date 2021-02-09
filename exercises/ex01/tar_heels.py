@@ -12,9 +12,8 @@ if x % 2 == 0 and not x % 7 == 0:
 if x % 7 == 0 and not x % 2 == 0:
     print("HEELS")
 
-if x % 2 == 0 and x % 7 == 0 :
+if x % 2 == 0 and x % 7 == 0:
     print("TAR HEELS")
 
-if not x % 2 == 0 and not x % 7 == 0 :
+if not x % 2 == 0 and not x % 7 == 0:
     print("CAROLINA")
-

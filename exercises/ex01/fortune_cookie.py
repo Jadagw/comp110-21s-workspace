@@ -17,17 +17,16 @@ fortune_number = randint(1, 100)
 
 print("Your fortune cookie says...")
 
-if bool(fortune_number > 50) :
-    if bool(fortune_number > 75) :
+if bool(fortune_number > 50):
+    if bool(fortune_number > 75):
         print("You will be very wealthy!")
-    else :
+    else:
         print("You will be very succesful!")
 
-else :
-    if bool(fortune_number > 25) :
+else:
+    if bool(fortune_number > 25):
         print("You will have lots of kids!")
-    else : 
+    else: 
         print("You will have many cats!")
-
+        
 print("Now, go spread positive vibes!")
-

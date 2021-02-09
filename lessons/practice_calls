@@ -1,0 +1,6 @@
+"""Jump around!"""
+
+
+def yes_no(b: bool) -> str:
+    """Converts a bool 'yes' or 'no'."""
+    
